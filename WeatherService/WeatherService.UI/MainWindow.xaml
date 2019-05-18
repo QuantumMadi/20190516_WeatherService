@@ -16,25 +16,67 @@
         Title="MainWindow" Height="600" Width="1000">
     <Grid>
         <materialDesign:Card Padding="32" Margin="84,168,679.6,0" Height="139">
-            <TextBlock Name="firstdayDate" FontSize="18" TextWrapping="Wrap" Text="TextBlock" Margin="0,0,10.4,-6.8"/>
+            <TextBlock FontSize="18" TextWrapping="Wrap" Text="Date" Margin="0,0,109,57"/>
         </materialDesign:Card>
-        <materialDesign:Card Padding="32" Margin="390,168,399.6,0" Height="100">
-
+        <TextBlock Name="txtBlockDate" FontSize="18" HorizontalAlignment="Left" Margin="192,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="113,235,0,0" TextWrapping="Wrap" Text="MaxTemp" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="113,271,0,0" TextWrapping="Wrap" Text="MinTemp" VerticalAlignment="Top"/>
+        <TextBlock Name="txtBoxMaxT" FontSize="18" HorizontalAlignment="Left" Margin="209,235,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="113,271,0,0" TextWrapping="Wrap" Text="MinTemp" VerticalAlignment="Top"/>
+        <TextBlock Name="txtBoxMinT" FontSize="18" HorizontalAlignment="Left" Margin="209,271,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <materialDesign:Card Padding="32" Margin="373,168,391,0" Height="139">
+            <TextBlock FontSize="18" TextWrapping="Wrap" Text="Date" Margin="0,0,109,57"/>
         </materialDesign:Card>
-        <materialDesign:Card Padding="32" Margin="695,168,67.6,0" Height="139">
-            <TextBlock Margin="10,0,4.2,-8.8" TextWrapping="Wrap" Text="TextBlock"/>
+        <TextBlock x:Name="txtBlockDate_Copy" FontSize="18" HorizontalAlignment="Left" Margin="481,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="402,235,0,0" TextWrapping="Wrap" Text="MaxTemp" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="402,271,0,0" TextWrapping="Wrap" Text="MinTemp" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBoxMaxT_Copy" FontSize="18" HorizontalAlignment="Left" Margin="498,235,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="402,271,0,0" TextWrapping="Wrap" Text="MinTemp" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBoxMinT_Copy" FontSize="18" HorizontalAlignment="Left" Margin="498,271,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <materialDesign:Card Padding="32" Margin="662,168,102,0" Height="139">
+            <TextBlock FontSize="18" TextWrapping="Wrap" Text="Date" Margin="0,0,109,57"/>
         </materialDesign:Card>
-        <materialDesign:Card Padding="32" Margin="84,338,679.6,0" Height="121">
-            <TextBlock Margin="0,0,-3.6,-13.4" TextWrapping="Wrap" Text="TextBlock"/>
+        <TextBlock x:Name="txtBlockDate_Copy1" FontSize="18" HorizontalAlignment="Left" Margin="770,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="691,235,0,0" TextWrapping="Wrap" Text="MaxTemp" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="691,271,0,0" TextWrapping="Wrap" Text="MinTemp" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBoxMaxT_Copy1" FontSize="18" HorizontalAlignment="Left" Margin="787,235,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="691,271,0,0" TextWrapping="Wrap" Text="MinTemp" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBoxMinT_Copy1" FontSize="18" HorizontalAlignment="Left" Margin="787,271,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <materialDesign:Card Padding="32" Margin="84,359,680,0" Height="139">
+            <TextBlock FontSize="18" TextWrapping="Wrap" Text="Date" Margin="0,0,109,57"/>
         </materialDesign:Card>
-        <materialDesign:Card Padding="32" Margin="390,168,374.6,0" Height="139">
-            <TextBlock Margin="0,0,10.8,-0.8" TextWrapping="Wrap" Text="TextBlock"/>
+        <TextBlock x:Name="txtBlockDate_Copy2" FontSize="18" HorizontalAlignment="Left" Margin="192,389,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="113,426,0,0" TextWrapping="Wrap" Text="MaxTemp" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="113,462,0,0" TextWrapping="Wrap" Text="MinTemp" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBoxMaxT_Copy2" FontSize="18" HorizontalAlignment="Left" Margin="209,426,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="113,462,0,0" TextWrapping="Wrap" Text="MinTemp" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBoxMinT_Copy2" FontSize="18" HorizontalAlignment="Left" Margin="209,462,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <materialDesign:Card Padding="32" Margin="373,359,391,0" Height="139">
+            <TextBlock FontSize="18" TextWrapping="Wrap" Text="Date" Margin="0,0,109,57"/>
         </materialDesign:Card>
-        <materialDesign:Card Padding="32" Margin="390,338,374.6,0" Height="121">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Margin="0,-12,-0.2,-12.4" Height="82" Width="165"/>
+        <TextBlock x:Name="txtBlockDate_Copy3" FontSize="18" HorizontalAlignment="Left" Margin="481,389,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="402,426,0,0" TextWrapping="Wrap" Text="MaxTemp" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="402,462,0,0" TextWrapping="Wrap" Text="MinTemp" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBoxMaxT_Copy3" FontSize="18" HorizontalAlignment="Left" Margin="498,426,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="402,462,0,0" TextWrapping="Wrap" Text="MinTemp" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBoxMinT_Copy3" FontSize="18" HorizontalAlignment="Left" Margin="498,462,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <materialDesign:Card Padding="32" Margin="662,359,102,0" Height="139">
+            <TextBlock FontSize="18" TextWrapping="Wrap" Text="Date" Margin="0,0,109,57"/>
         </materialDesign:Card>
-        <materialDesign:Card Padding="32" Margin="695,338,67.6,0" Height="121">
-            <TextBlock HorizontalAlignment="Left" Margin="29,0,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        </materialDesign:Card>
+        <TextBlock x:Name="txtBlockDate_Copy4" FontSize="18" HorizontalAlignment="Left" Margin="770,389,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="691,426,0,0" TextWrapping="Wrap" Text="MaxTemp" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="691,462,0,0" TextWrapping="Wrap" Text="MinTemp" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBoxMaxT_Copy4" FontSize="18" HorizontalAlignment="Left" Margin="787,426,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="691,462,0,0" TextWrapping="Wrap" Text="MinTemp" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBoxMinT_Copy4" FontSize="18" HorizontalAlignment="Left" Margin="787,462,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBox Name="txtBoxCityName" FontSize="24" HorizontalAlignment="Left" Height="43" Margin="719,25,0,0" TextWrapping="Wrap" Text="City" VerticalAlignment="Top" Width="184"/>
+        <materialDesign:Card Padding="32" Margin="373,10,391,0" Height="139"/>
+        <TextBlock x:Name="txtBlockDate_Copy5" FontSize="18" HorizontalAlignment="Left" Margin="481,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="402,79,0,0" TextWrapping="Wrap" Text="Temp" VerticalAlignment="Top"/>
+        <TextBlock FontSize="18" HorizontalAlignment="Left" Margin="402,115,0,0" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBoxMaxT_Copy5" FontSize="18" HorizontalAlignment="Left" Margin="498,79,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBoxMinT_Copy5" FontSize="18" HorizontalAlignment="Left" Margin="498,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock FontSize="28" HorizontalAlignment="Left" Margin="84,69,0,0" TextWrapping="Wrap" Text="Current Conditions" VerticalAlignment="Top"/>
+        <Button Name="btnSubmit" Click="FindWeather" Content="Find" HorizontalAlignment="Left" Margin="719,105,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
